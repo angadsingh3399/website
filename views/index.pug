@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    style 
+        include ../static1/style.css
+            
+  body
+    navbar#navbar.nav
+                div.logo
+                    img(src="../static1/PinClipart.com_clip-art-sports_855306.png", alt="dance")
+                    | ADA
+                ul#list
+                    li #[a(href='/') Home] 
+                    li #[a(href='/') Services]
+                    li #[a(href='/') Clients]
+                    li #[a(href='/') Contact Us]
+                
+    section#section1.container    
+                h1 
+                    | Angad's Dance Academy
+                div 
+                    | Eat Sleep Dance Repeat 
+
+    section#section2.container
+                h3 Our Mission
+                
+                div.card
+                    h3 Dancing Performance
+                    div.imgbox
+                        img.img(src="../static1/ClipartKey_1484123.png", alt="")
+                        p Our Students have participated in numerous International events and showed their excellence.
+                div.card
+                    h3 Dancing The Way You Like
+                    div.imgbox
+                        img.img(src="../static1/ClipartKey_68840.png", alt="")
+                        p You can Dance with any style you want.
+                div.card
+                    h3 Dancing Experts
+                    div.imgbox
+                        img.img(src="../static1/ClipartKey_1113382.png", alt="")
+                        p Explore your true potential with our Erudite dance teachers and unleash your talent to a new level.
+    section#section3.container
+                h3 Our Sponsors   
+                img(src="../static1/spnonsors/logo1.png", alt="1", class="img-sponsor")       
+                img(src="../static1/spnonsors/logo2.png", alt="2", class="img-sponsor")       
+                img(src="../static1/spnonsors/logo3.png", alt="3", class="img-sponsor")       
+                img(src="../static1/spnonsors/logo4.png", alt="4", class="img-sponsor")       
+     
+    footer.footer
+                |Copyright © 2020 Angadanceacademy.com || All Rights Reserved
+    script 
+                include ../static1/index.js
+            
+
+

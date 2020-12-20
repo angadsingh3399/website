@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0 px;
+}
+
+.submitted{
+    display: flex;
+    width:550px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #c7efc5;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+        
+}    
+.submitted img{
+    height:25px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.container{
+    font-family: 'Baloo Bhai', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    /* border: 2px solid red; */
+    height: 80vh;
+}
+.container h2{
+    padding-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin-top :10px;
+    
+}
+.frm input{
+    font-family: 'Baloo Bhai', cursive;
+    width: 60%;
+    padding: 6px;
+    margin: 7px auto;
+    border-radius: 9px;
+}
+.btn{
+    width: 100px;
+    padding:7px;
+    border-radius: 4px;
+    margin: 14px auto;
+    background-color: tomato;
+    border-color: black;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(223, 88, 64);
+   
+}

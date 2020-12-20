@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    display:flex;
+    height: 54px;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;    
+}
+
+.logo img{
+    height: 41px; 
+    filter: invert();
+    padding: 7px 0px;
+    padding-left: 8px;
+} 
+
+#navbar{
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    font-family: 'Baloo Bhai', cursive;
+    display: flex;
+    flex-direction: row;
+    padding: auto 20px;
+    background-color: tomato;
+    z-index: 2;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 12px 15px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 25px 10px;
+    font-size: 1.2rem;
+}
+
+#navbar li a:hover{
+    color: black;
+    background-color: white;
+    /* outline */
+    outline: 2px solid black;
+    border-top: none;
+}
+
+#section1{
+    position: relative;
+    font-family: 'Baloo Bhai', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 140px 199px;
+    font-size: 1.9rem;
+    z-index: 1;
+    background-color: black;
+    color: #d6b6ff;
+    padding-bottom: 205px;
+}
+
+#section1::before{
+    content: '';
+    position: absolute;
+    background: url("../static1/JvCoA3p.jpg");
+    top: 0px;
+    left: 0px;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#section2{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 170px;
+    margin: 10px 20px;
+    border-radius: 13px;
+    font-size: 0.95rem;
+    padding: 10px;
+    background-color: #d6b6ff;
+}
+
+.card h3{
+    color: tomato;
+    font-weight: bold;
+}
+
+.imgbox{
+    height: 100px;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 8px;
+    flex-direction: row;
+    margin: 0px 0px;
+    align-items: center;
+}
+
+.img{
+    height: 100px;
+}
+
+#section3{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    height: 160px;
+    background-color: thistle;
+}
+
+.img-sponsor{
+    height: 40%;
+    padding: 50px 30px;
+}
+
+.footer{
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
